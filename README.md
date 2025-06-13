@@ -27,7 +27,6 @@
 ## Features
 - **IP Geolocation**: Retrieve geolocation data for a given IP address.
 - **Domain Lookup**: Gather DNS information, Whois data, and other domain-related insights.
-- **Social Media Scraping**: Extract user profiles, posts, and metadata from popular social media platforms.
 - **Email Lookup**: Check the validity and trace the origin of an email address.
 - **Search Engine Scraping**: Perform targeted searches and extract valuable information from search engines.
 <br/>
@@ -35,11 +34,11 @@
 
    
 ## Installation
-Follow these steps to install Wraith on your Kali Linux system:
+Follow these steps to install Wraith on your Kali Linux / Windows system:
 
 1. Clone the repository from GitHub:
    ```bash
-   git clone https://github.com/Kydoimoz/wraith.git
+   git clone https://github.com/Klautzevitz/wraith.git
 
 
 <footer>
