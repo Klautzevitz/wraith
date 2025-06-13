@@ -10,7 +10,7 @@ def create_folder(name, surname)
   folder_name
 end
 
-# Lädt Instagram-Daten (Platzhalter)
+# Lädt Instagram-Daten (Platzhalter) g
 def search_instagram(name, surname, username, password)
   puts "Simuliere Instagram-Login für #{username}..."
   puts ">>> (Ruby hat kein direktes Pendant zu instaloader)"
