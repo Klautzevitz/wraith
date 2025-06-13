@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     tags:
       - 'v*'
+      - 'cm*'
   pull_request:
     branches: [ main ]
 
@@ -29,7 +30,7 @@ jobs:
 
   release:
     needs: test
-    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+    if: startsWith(github.ref, 'refs/tags/v') || startsWith(github.ref, 'refs/tags/cm')
     runs-on: ubuntu-latest
 
     steps:
