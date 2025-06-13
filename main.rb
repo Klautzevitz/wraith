@@ -38,7 +38,7 @@ HEADER = <<~HEREDOC
 
   #{ORANGE}OPEN SOURCE INTELLIGENCE TOOL
   Creator: Kydoimoz & Klautzevitz
-  Github: https://github.com/Kydoimoz
+  Github: https://github.com/Klautzevitz/wraith
   Version: 1.0
 
   #{RED}============================================================================================================
